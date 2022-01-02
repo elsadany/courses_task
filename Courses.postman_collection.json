@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "742e32d5-e31b-49bb-8041-69f5f56ac2b5",
+		"name": "Courses",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/courses/public/api/categories",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"courses",
+						"public",
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/courses/public/api/courses",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"courses",
+						"public",
+						"api",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
